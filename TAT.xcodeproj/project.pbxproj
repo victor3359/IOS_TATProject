@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98152FFD1DA8C7A300FD8C09 /* HomeSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98152FFC1DA8C7A300FD8C09 /* HomeSlideViewController.swift */; };
+		981530421DA938A200FD8C09 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981530411DA938A200FD8C09 /* SearchViewController.swift */; };
+		98659EE21DBF9574008C4877 /* AukDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98659EE11DBF9574008C4877 /* AukDistrib.swift */; };
+		98659EE41DBF9586008C4877 /* MoaDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98659EE31DBF9586008C4877 /* MoaDistrib.swift */; };
+		98B623931DA93DCF00F47F16 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B623921DA93DCF00F47F16 /* FavoriteViewController.swift */; };
+		98B623951DA93E6A00F47F16 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B623941DA93E6A00F47F16 /* MemberViewController.swift */; };
+		98DB7AED1DBBA26E005BEFE1 /* ShoppingTrolley.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DB7AEC1DBBA26E005BEFE1 /* ShoppingTrolley.storyboard */; };
+		98F92BDD1DA3B13C00EB2DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F92BDC1DA3B13C00EB2DEA /* AppDelegate.swift */; };
+		98F92BE51DA3B13C00EB2DEA /* TAT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98F92BE31DA3B13C00EB2DEA /* TAT.xcdatamodeld */; };
+		98F92BE71DA3B13C00EB2DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F92BE61DA3B13C00EB2DEA /* Assets.xcassets */; };
+		98F92BEA1DA3B13C00EB2DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F92BE81DA3B13C00EB2DEA /* LaunchScreen.storyboard */; };
+		98F92BF51DA3B13C00EB2DEA /* TATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F92BF41DA3B13C00EB2DEA /* TATTests.swift */; };
+		98F92C001DA3B13C00EB2DEA /* TATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F92BFF1DA3B13C00EB2DEA /* TATUITests.swift */; };
+		98F92C111DA3B16E00EB2DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F92C101DA3B16E00EB2DEA /* Main.storyboard */; };
+		98F92C151DA3B18100EB2DEA /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F92C121DA3B18100EB2DEA /* SlideMenuController.swift */; };
+		98F92C1D1DA3CAF000EB2DEA /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F92C1C1DA3CAF000EB2DEA /* HomeMainViewController.swift */; };
+		AD216FFE1DCCACD900AA647B /* ShoppingTrolley.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD216FFD1DCCACD900AA647B /* ShoppingTrolley.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F92BF11DA3B13C00EB2DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F92BD11DA3B13C00EB2DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F92BD81DA3B13C00EB2DEA;
+			remoteInfo = TAT;
+		};
+		98F92BFC1DA3B13C00EB2DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F92BD11DA3B13C00EB2DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F92BD81DA3B13C00EB2DEA;
+			remoteInfo = TAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98152FFC1DA8C7A300FD8C09 /* HomeSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSlideViewController.swift; sourceTree = "<group>"; };
+		981530411DA938A200FD8C09 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		98659EE11DBF9574008C4877 /* AukDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AukDistrib.swift; sourceTree = "<group>"; };
+		98659EE31DBF9586008C4877 /* MoaDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoaDistrib.swift; sourceTree = "<group>"; };
+		98B623921DA93DCF00F47F16 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		98B623941DA93E6A00F47F16 /* MemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		98DB7AEC1DBBA26E005BEFE1 /* ShoppingTrolley.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShoppingTrolley.storyboard; sourceTree = "<group>"; };
+		98F92BD91DA3B13C00EB2DEA /* TAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F92BDC1DA3B13C00EB2DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98F92BE41DA3B13C00EB2DEA /* TAT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TAT.xcdatamodel; sourceTree = "<group>"; };
+		98F92BE61DA3B13C00EB2DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F92BE91DA3B13C00EB2DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98F92BEB1DA3B13C00EB2DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F92BF01DA3B13C00EB2DEA /* TATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F92BF41DA3B13C00EB2DEA /* TATTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATTests.swift; sourceTree = "<group>"; };
+		98F92BF61DA3B13C00EB2DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F92BFB1DA3B13C00EB2DEA /* TATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F92BFF1DA3B13C00EB2DEA /* TATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TATUITests.swift; sourceTree = "<group>"; };
+		98F92C011DA3B13C00EB2DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F92C101DA3B16E00EB2DEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		98F92C121DA3B18100EB2DEA /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		98F92C1C1DA3CAF000EB2DEA /* HomeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
+		AD216FFD1DCCACD900AA647B /* ShoppingTrolley.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingTrolley.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F92BD61DA3B13C00EB2DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BED1DA3B13C00EB2DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BF81DA3B13C00EB2DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F92BD01DA3B13C00EB2DEA = {
+			isa = PBXGroup;
+			children = (
+				98F92BDB1DA3B13C00EB2DEA /* TAT */,
+				98F92BF31DA3B13C00EB2DEA /* TATTests */,
+				98F92BFE1DA3B13C00EB2DEA /* TATUITests */,
+				98F92BDA1DA3B13C00EB2DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F92BDA1DA3B13C00EB2DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F92BD91DA3B13C00EB2DEA /* TAT.app */,
+				98F92BF01DA3B13C00EB2DEA /* TATTests.xctest */,
+				98F92BFB1DA3B13C00EB2DEA /* TATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F92BDB1DA3B13C00EB2DEA /* TAT */ = {
+			isa = PBXGroup;
+			children = (
+				98659EE31DBF9586008C4877 /* MoaDistrib.swift */,
+				98659EE11DBF9574008C4877 /* AukDistrib.swift */,
+				98F92C121DA3B18100EB2DEA /* SlideMenuController.swift */,
+				98F92BDC1DA3B13C00EB2DEA /* AppDelegate.swift */,
+				98F92C101DA3B16E00EB2DEA /* Main.storyboard */,
+				98DB7AEC1DBBA26E005BEFE1 /* ShoppingTrolley.storyboard */,
+				98F92BE61DA3B13C00EB2DEA /* Assets.xcassets */,
+				98F92BE81DA3B13C00EB2DEA /* LaunchScreen.storyboard */,
+				98F92BEB1DA3B13C00EB2DEA /* Info.plist */,
+				98F92BE31DA3B13C00EB2DEA /* TAT.xcdatamodeld */,
+				98F92C1C1DA3CAF000EB2DEA /* HomeMainViewController.swift */,
+				98152FFC1DA8C7A300FD8C09 /* HomeSlideViewController.swift */,
+				98B623921DA93DCF00F47F16 /* FavoriteViewController.swift */,
+				981530411DA938A200FD8C09 /* SearchViewController.swift */,
+				98B623941DA93E6A00F47F16 /* MemberViewController.swift */,
+				AD216FFD1DCCACD900AA647B /* ShoppingTrolley.swift */,
+			);
+			path = TAT;
+			sourceTree = "<group>";
+		};
+		98F92BF31DA3B13C00EB2DEA /* TATTests */ = {
+			isa = PBXGroup;
+			children = (
+				98F92BF41DA3B13C00EB2DEA /* TATTests.swift */,
+				98F92BF61DA3B13C00EB2DEA /* Info.plist */,
+			);
+			path = TATTests;
+			sourceTree = "<group>";
+		};
+		98F92BFE1DA3B13C00EB2DEA /* TATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F92BFF1DA3B13C00EB2DEA /* TATUITests.swift */,
+				98F92C011DA3B13C00EB2DEA /* Info.plist */,
+			);
+			path = TATUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F92BD81DA3B13C00EB2DEA /* TAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F92C041DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TAT" */;
+			buildPhases = (
+				98F92BD51DA3B13C00EB2DEA /* Sources */,
+				98F92BD61DA3B13C00EB2DEA /* Frameworks */,
+				98F92BD71DA3B13C00EB2DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAT;
+			productName = TAT;
+			productReference = 98F92BD91DA3B13C00EB2DEA /* TAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F92BEF1DA3B13C00EB2DEA /* TATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F92C071DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TATTests" */;
+			buildPhases = (
+				98F92BEC1DA3B13C00EB2DEA /* Sources */,
+				98F92BED1DA3B13C00EB2DEA /* Frameworks */,
+				98F92BEE1DA3B13C00EB2DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F92BF21DA3B13C00EB2DEA /* PBXTargetDependency */,
+			);
+			name = TATTests;
+			productName = TATTests;
+			productReference = 98F92BF01DA3B13C00EB2DEA /* TATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98F92BFA1DA3B13C00EB2DEA /* TATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F92C0A1DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TATUITests" */;
+			buildPhases = (
+				98F92BF71DA3B13C00EB2DEA /* Sources */,
+				98F92BF81DA3B13C00EB2DEA /* Frameworks */,
+				98F92BF91DA3B13C00EB2DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F92BFD1DA3B13C00EB2DEA /* PBXTargetDependency */,
+			);
+			name = TATUITests;
+			productName = TATUITests;
+			productReference = 98F92BFB1DA3B13C00EB2DEA /* TATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F92BD11DA3B13C00EB2DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chunbi Feng";
+				TargetAttributes = {
+					98F92BD81DA3B13C00EB2DEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9MFRC52B8X;
+						ProvisioningStyle = Automatic;
+					};
+					98F92BEF1DA3B13C00EB2DEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SUGESE4FGK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98F92BD81DA3B13C00EB2DEA;
+					};
+					98F92BFA1DA3B13C00EB2DEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SUGESE4FGK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98F92BD81DA3B13C00EB2DEA;
+					};
+				};
+			};
+			buildConfigurationList = 98F92BD41DA3B13C00EB2DEA /* Build configuration list for PBXProject "TAT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F92BD01DA3B13C00EB2DEA;
+			productRefGroup = 98F92BDA1DA3B13C00EB2DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F92BD81DA3B13C00EB2DEA /* TAT */,
+				98F92BEF1DA3B13C00EB2DEA /* TATTests */,
+				98F92BFA1DA3B13C00EB2DEA /* TATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F92BD71DA3B13C00EB2DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DB7AED1DBBA26E005BEFE1 /* ShoppingTrolley.storyboard in Resources */,
+				98F92BEA1DA3B13C00EB2DEA /* LaunchScreen.storyboard in Resources */,
+				98F92BE71DA3B13C00EB2DEA /* Assets.xcassets in Resources */,
+				98F92C111DA3B16E00EB2DEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BEE1DA3B13C00EB2DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BF91DA3B13C00EB2DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F92BD51DA3B13C00EB2DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981530421DA938A200FD8C09 /* SearchViewController.swift in Sources */,
+				98659EE41DBF9586008C4877 /* MoaDistrib.swift in Sources */,
+				98F92BDD1DA3B13C00EB2DEA /* AppDelegate.swift in Sources */,
+				98152FFD1DA8C7A300FD8C09 /* HomeSlideViewController.swift in Sources */,
+				98B623931DA93DCF00F47F16 /* FavoriteViewController.swift in Sources */,
+				98B623951DA93E6A00F47F16 /* MemberViewController.swift in Sources */,
+				AD216FFE1DCCACD900AA647B /* ShoppingTrolley.swift in Sources */,
+				98F92C151DA3B18100EB2DEA /* SlideMenuController.swift in Sources */,
+				98659EE21DBF9574008C4877 /* AukDistrib.swift in Sources */,
+				98F92BE51DA3B13C00EB2DEA /* TAT.xcdatamodeld in Sources */,
+				98F92C1D1DA3CAF000EB2DEA /* HomeMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BEC1DA3B13C00EB2DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F92BF51DA3B13C00EB2DEA /* TATTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F92BF71DA3B13C00EB2DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F92C001DA3B13C00EB2DEA /* TATUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F92BF21DA3B13C00EB2DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F92BD81DA3B13C00EB2DEA /* TAT */;
+			targetProxy = 98F92BF11DA3B13C00EB2DEA /* PBXContainerItemProxy */;
+		};
+		98F92BFD1DA3B13C00EB2DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F92BD81DA3B13C00EB2DEA /* TAT */;
+			targetProxy = 98F92BFC1DA3B13C00EB2DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98F92BE81DA3B13C00EB2DEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F92BE91DA3B13C00EB2DEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98F92C021DA3B13C00EB2DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F92C031DA3B13C00EB2DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F92C051DA3B13C00EB2DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9MFRC52B8X;
+				INFOPLIST_FILE = TAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98F92C061DA3B13C00EB2DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9MFRC52B8X;
+				INFOPLIST_FILE = TAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		98F92C081DA3B13C00EB2DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUGESE4FGK;
+				INFOPLIST_FILE = TATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAT.app/TAT";
+			};
+			name = Debug;
+		};
+		98F92C091DA3B13C00EB2DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SUGESE4FGK;
+				INFOPLIST_FILE = TATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAT.app/TAT";
+			};
+			name = Release;
+		};
+		98F92C0B1DA3B13C00EB2DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUGESE4FGK;
+				INFOPLIST_FILE = TATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TAT;
+			};
+			name = Debug;
+		};
+		98F92C0C1DA3B13C00EB2DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SUGESE4FGK;
+				INFOPLIST_FILE = TATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.TATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TAT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F92BD41DA3B13C00EB2DEA /* Build configuration list for PBXProject "TAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F92C021DA3B13C00EB2DEA /* Debug */,
+				98F92C031DA3B13C00EB2DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F92C041DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F92C051DA3B13C00EB2DEA /* Debug */,
+				98F92C061DA3B13C00EB2DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F92C071DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F92C081DA3B13C00EB2DEA /* Debug */,
+				98F92C091DA3B13C00EB2DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F92C0A1DA3B13C00EB2DEA /* Build configuration list for PBXNativeTarget "TATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F92C0B1DA3B13C00EB2DEA /* Debug */,
+				98F92C0C1DA3B13C00EB2DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98F92BE31DA3B13C00EB2DEA /* TAT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98F92BE41DA3B13C00EB2DEA /* TAT.xcdatamodel */,
+			);
+			currentVersion = 98F92BE41DA3B13C00EB2DEA /* TAT.xcdatamodel */;
+			path = TAT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98F92BD11DA3B13C00EB2DEA /* Project object */;
+}
